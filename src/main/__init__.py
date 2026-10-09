@@ -592,8 +592,7 @@ def verify_source_provenance(path=None):
     """Compare source code with this reference's recorded implementation.
 
     With no path, inspect this module's source file. Pass another path to
-    compare a distributed copy with this reference. Formatting, comments,
-    and docstrings are ignored; identifier and implementation changes are
+    compare a distributed copy with this reference. Formatting, comments; identifier and implementation changes are
     detected. The provenance block itself is outside the fingerprint.
 
     This unsigned check does not prove authorship, permission, independent
